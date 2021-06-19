@@ -1,4 +1,3 @@
-import 'package:zam_command_pattern/exceptions.dart';
 import 'package:zam_command_pattern/zam_command_pattern.dart';
 import 'package:zam_test/zam_test.dart';
 
