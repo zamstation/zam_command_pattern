@@ -1,9 +1,9 @@
-# Zam Command Pattern Library
+# Command Pattern
 
 Provides utilities to implement the command pattern.  
   
 [![Version](https://img.shields.io/pub/v/zam_command_pattern?color=%234287f5)](https://pub.dev/packages/zam_command_pattern)
-[![Build](https://github.com/zamstation/zam_command_pattern/actions/workflows/build.yml/badge.svg)](https://github.com/zamstation/zam_command_pattern/actions/workflows/build.yml)
+[![Build](https://github.com/zamstation/zam_command_pattern/actions/workflows/build.yaml/badge.svg)](https://github.com/zamstation/zam_command_pattern/actions/workflows/build.yaml)
 [![Stars](https://img.shields.io/github/stars/zamstation/zam_command_pattern.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/zamstation/zam_command_pattern/stargazers)
 [![License](https://img.shields.io/github/license/zamstation/zam_command_pattern)](https://pub.dev/packages/zam_command_pattern/license)
 
