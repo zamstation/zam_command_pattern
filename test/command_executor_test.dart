@@ -11,13 +11,13 @@ class CommandExecutorTestGroup extends TestGroup {
   static late final CommandExecutor executor;
 
   @override
-  final name = 'CommandExecutor';
+  get name => 'CommandExecutor';
 
   @override
-  final tests = [
-    ExceptionTest(),
-    ResponseTest(),
-  ];
+  get tests => [
+        ExceptionTest(),
+        ResponseTest(),
+      ];
 
   CommandExecutorTestGroup() : super.empty();
 
