@@ -21,6 +21,11 @@ class ApplyBrakeCommand implements CarCommand {
 
 // Now let's see the library in action.
 void main() {
+  // Executing a command is simple.
+  final command = StartEngineCommand();
+  command.execute(); // prints 'Engine Started'.
+
+  // For complex systems you can use the executor.
   // Build the command executor.
   // Register StartEngineCommand.
   final executor = CommandExecutor.fromBuilders({
@@ -28,7 +33,7 @@ void main() {
   });
 
   // Registered command runs.
-  executor.execute(StartEngineCommand); // Engine Started.
+  executor.execute(StartEngineCommand); // prints 'Engine Started'.
 
   // Unregistered command throws error.
   try {
@@ -38,12 +43,5 @@ void main() {
     // > Problem: ApplyBrakeCommand is not registered in the factory.
     // > Solution: Please add ApplyBrakeCommand to the factory.
     print(e);
-  }
-}
-
-// Usage
-class Car {
-  void startEngine() {
-    StartEngineCommand().execute();
   }
 }
