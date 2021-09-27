@@ -1,3 +1,7 @@
+# 0.2.0
+- Updated dependency: `zam_core 0.6.0`
+- Updated dependency: `zam_factory_pattern 0.2.0`
+
 # 0.1.0
 - **BREAKING:** Removed `lib/exceptions.dart`.
 - Added exceptions to `lib/zam_command_pattern.dart`.
